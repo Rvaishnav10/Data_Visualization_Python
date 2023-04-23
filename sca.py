@@ -1,0 +1,5 @@
+fig, axes=plt.subplots(3,3)
+plt.sca(axes[1,1])
+plt.xticks([0,1,2], ['A','B','C'], color='green')
+plt.yticks([0,1,2],[1,5,10], color='green')
+plt.show()
